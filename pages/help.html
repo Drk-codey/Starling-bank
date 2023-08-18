@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starling Bank | Blog</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/styles/help.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav id="nav-bar">
+      <div class="logo">
+        <a href="/index.html"><img src="/Image/starlingbank 1.png" alt="starlingbank icon"></a>
+      </div>
+      
+      <div class="navbar-container hide" id="navbar-container"></div>
+
+      <ul class="nav-links"> 
+        <li><a href="./features.html">Features</a></li>
+        <li><a href="./pricing.html">Pricing</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./aboutus.html">About us</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+      <div class="btn-container">
+        <a href="/pages/register.html"><button class="login">Login</button></a>
+        <a href="/pages/register.html?intent=signup"><button class="register">Sign up</button></a>
+      </div>
+
+      <!-- Hamburger Menu -->
+      <div id="hamburger-lines" onclick="menuOnClick()">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="help">
+    <div id="container">
+      <h1>Get quick answers to your questions about Starling</h1>
+      <input type="text" name="search" placeholder="Search...">
+      <div class="help-content">
+        <div class="help-box">
+          <a href="">
+            <img src="/Image/icons/general-100.png" alt="" class="icons">
+            <h3 class="topic">General</h3>
+            <p class="summary">Get answers to common questions</p>
+          </a>
+        </div>
+        <div class="help-box">
+          <a href="">
+            <img src="/Image/icons/account-100.png" alt="" class="icons">
+            <h3 class="topic">Acount Setup</h3>
+            <p class="summary">Create and manage your account</p>
+          </a>
+        </div>
+        <div class="help-box">
+          <a href="">
+            <img src="/Image/icons/payment-100.png" alt="" class="icons">
+            <h3 class="topic">Payments</h3>
+            <p class="summary">Make secure and convenient payments</p>
+          </a>
+        </div>
+        <div class="help-box">
+          <a href="">
+            <img src="/Image/icons/transaction-100.png" alt="" class="icons">
+            <h3 class="topic">Transaction</h3>
+            <p class="summary">Make secure and convenient payments</p>
+          </a>
+        </div>
+        <div class="help-box">
+          <a href="">
+            <img src="/Image/icons/no-hidden-fees.png" alt="" class="icons">
+            <h3 class="topic">Fees and Services</h3>
+            <p class="summary">Understand pricing and charges</p>
+          </a>
+        </div>
+        <div class="help-box">
+          <a href="">
+            <img src="/Image/icons/secure-100.png" alt="" class="icons">
+            <h3 class="topic">Security and Privacy</h3>
+            <p class="summary">Protect your information and transactions</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="faq-content">
+        <div class="faq-logo__holder">
+          <div class="faq-logo">
+            <img src="/Image/icons/FAQs-rafiki.svg" alt="">
+          </div>
+        </div>
+        <div class="faq-holder">
+          <div class="faq-heading">FAQ</div>
+          <details class="faq-detail">
+            <summary class="faq-summary">
+              <span class="faq-question">How do I create an account?</span>
+            </summary>
+            <p class="faq-text">To create an account, visit our website and click on the "Sign Up" button. Fill in the required information, such as your name, email address, and password. Follow the prompts to complete the registration process.</p>
+          </details>
+          <details class="faq-detail">
+            <summary class="faq-summary">
+              <span class="faq-question">What payment methods do you accept?</span>
+            </summary>
+            <p class="faq-text">We accept a wide range of payment methods, including major credit cards (Visa, Mastercard, American Express), debit cards, and digital wallets such as Apple Pay and Google Pay. Simply choose your preferred payment method at checkout.</p>
+          </details>
+          <details class="faq-detail">
+            <summary class="faq-summary">
+              <span class="faq-question">How can I send money to another user?</span>
+            </summary>
+            <p class="faq-text">Sending money to another user is easy. Log in to your account, navigate to the "Send Money" section, and enter the recipient's email address or phone number. Specify the amount you want to send and confirm the transaction. The recipient will receive a notification and can claim the funds.</p>
+          </details>
+          <details class="faq-detail">
+            <summary class="faq-summary">
+              <span class="faq-question">What are the fees for using your service?</span>
+            </summary>
+            <p class="faq-text">We strive to offer competitive and transparent pricing. Our fee structure varies depending on the type of transaction and the payment method used. You can find detailed information on our pricing page or by contacting our support team.</p>
+          </details>
+          <details class="faq-detail">
+            <summary class="faq-summary">
+              <span class="faq-question">How do I reset my password?</span>
+            </summary>
+            <p class="faq-text">If you've forgotten your password, click on the "Forgot Password" link on the login page. Enter your email address, and we'll send you instructions on how to reset your password. Follow the provided link and set a new password for your account.</p>
+          </details>
+          <details class="faq-detail">
+            <summary class="faq-summary">
+              <span class="faq-question">How can I view my transaction history?</span>
+            </summary>
+            <p class="faq-text">To view your transaction history, log in to your account and navigate to the "Transaction History" or "Activity" section. Here, you can access a detailed record of your past transactions, including dates, amounts, and transaction IDs.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="support-contact">
+        <h5>Do you need additional assistance?</h5>
+        <p>Our friendly support team is here to help.</p>
+        <button>Contact Support</button>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+
+<script src="/script.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
